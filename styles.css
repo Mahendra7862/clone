@@ -1,0 +1,397 @@
+/*responsice */
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+
+/* end */
+
+body{
+    background-color: #0d0e0e;
+}
+
+.nav{
+    width: 100%;
+    background-color: rgb(72, 63, 63);
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+   
+}
+
+
+.nav .nav-logo{
+    width: 10%;
+    list-style: none;
+    padding: 13px ;
+    padding-left: 120px;
+font-size: 30px;
+justify-content: right;
+align-items: center;
+}
+
+.nav .nav-links{
+  
+    width: 65%;
+    display: flex;
+    list-style: none;
+    color:whitesmoke;
+    padding: 2px;
+    align-items: center;
+  
+}
+
+.nav .nav-items{
+   
+    width: 25%;
+    display: flex;
+    list-style: none;
+    padding-left: 30px;
+    justify-content: left;
+    align-items: center;
+    
+}
+.nav .nav-items li{
+    padding-right: 50px;
+    margin-left: 0;
+}
+
+
+.offer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(105, 95, 95);
+    justify-content: center;
+    text-align: center;
+    color: #e3efe6;
+    
+}
+.offer a{
+    background-color: rgb(105, 95, 95);
+    border-style: none;
+    color: #438aef;
+    margin-left: 25px;
+}
+
+
+/* section here */
+
+.hero-full-div{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.hero-top{
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.hero-top .hero-heading{
+    margin: 0;
+    width: 50%;
+    background-color: rgb(12, 12, 12);
+    display: flex;
+    justify-content: center;
+    color: #f6ebeb;
+    text-align: center;
+
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.hero-top .hero-phone-color{
+    background-color: #0d0e0e;
+    width: 50%;
+   list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.hero-top .hero-phone-color li{
+    padding-right: 30px;
+    padding-left: 10px;
+    font-size: 40px;
+ 
+}
+
+
+
+
+.hero-full-div .hero-full-row1 {
+    width: 80%;
+    padding-top: 40px;
+    padding-right: 0px;
+    padding-bottom: 30px;
+    background-color: rgb(15, 14, 14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* section buy */
+
+.buy{
+    padding-top: 30px;
+    padding-bottom: 30px;
+background-color:#161617;
+width: 100%;
+color: rgb(211, 191, 191);
+text-align: center;
+
+}
+.buy h2{
+    font-size: 30px;
+    color: #cacdce;
+}
+.buy h3{
+    color: #9d9da6;
+}
+.buy button{
+    border: none;
+    background-color:rgb(8, 8, 8) ;
+    padding: 15px;
+    border-radius: 30%;
+    font-size: 20px;
+    color: #eadfdf;
+}
+
+/* iphone 14pro */
+
+.iphone14pro{
+    background-color: #0c0c0c;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.iphone14pro .iphone14pro-content{
+    width: 60%;
+    background-color: rgb(6, 6, 6);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+}
+.iphone14pro .right{
+    width: 40%;
+}
+
+.iphone14pro .iphone14pro-content .dynamicIsland{
+    width: 60%;
+    height: 100%;
+    background-color: rgb(8, 8, 8);
+    margin-top: 130px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+    color: #e3efe6;
+    margin-right: 10px;
+    text-align: center;
+    
+}
+
+.iphone14pro .iphone14pro-content .dynamicIsland .dynamicIsland-heading{
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+}
+.iphone14pro .iphone14pro-content .dynamicIsland .dynamicIsland-photo{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+.iphone14pro .iphone14pro-content .right .cam48mg{
+    width: 38%;
+    height: 600px;
+    margin-left: 30px;
+
+    background-color: #060606;
+    color: #eee4e4;
+    display: inline;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    text-align: center;
+   
+}
+.iphone14pro .iphone14pro-content .right .cam48mg .cam48mg-heading{
+    padding-left: 20px;
+
+}
+
+.iphone14pro .iphone14pro-content .right .cam48mg img{
+    width: 300px;
+    height: 350px;
+    border-radius: 8%;
+    object-fit: cover;
+    padding-left: 20px;
+    
+  
+    
+}
+
+
+
+/*  */
+
+
+
+.iphone14pro .iphone14pro-content .right .A16{
+    width: 38%;
+    height: 600px;
+    margin-left: 30px;
+
+    background-color: #1f1d1d;
+    color: #eee4e4;
+    display: inline;
+    padding-bottom: 30px;
+    text-align: center;
+   
+   
+}
+
+
+.iphone14pro .iphone14pro-content .right .A16 img{
+    width: 300px;
+    height: 350px;
+    border-radius: 8%;
+    object-fit: cover;
+    padding-left: 20px;
+    
+  padding-top: 40px;
+    
+}
+
+
+
+
+.iphone14pro .iphone14pro-content .right .A16{
+    width: 40%;
+   
+}
+
+
+.colorhr{
+    color: rgb(85, 86, 86);
+}
+
+
+/*footer*/
+
+
+.footer-container{
+    display: flex;
+    color: #cacdce;
+    list-style: none;
+    width: 100%;
+    background-color: #050505;
+}
+.footer-container .footer1{
+    margin-left: 30px;
+    padding-left: 30px;
+    
+}
+
+.footer-container .footer2{
+    margin-left: 30px;
+    padding-left: 30px;
+    
+}
+.footer-container .footer3{
+    margin-left: 30px;
+    padding-left: 30px;
+    
+}
+.footer-container .footer4{
+    margin-left: 30px;
+    padding-left: 30px;
+    
+}
+.footer-container .footer5{
+    margin-left: 30px;
+    padding-left: 30px;
+    
+}
+
+
+.footer-container .footer1 li {
+    
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+    
+}
+.footer-container .footer2 li {
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+      
+  }
+  .footer-container .footer3 li {
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+      
+  }
+  .footer-container .footer4 li {
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+      
+  }
+  .footer-container .footer5 li {
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+      
+  }
+  
+  
+
+
+.footer-container .footer1 li a{
+    color:rgb(163, 175, 178);
+    text-decoration: none;
+
+}
+.footer-container .footer2 li a{
+    color:rgb(163, 175, 178);
+    
+    text-decoration: none;
+}
+.footer-container .footer3 li a{
+    color:rgb(163, 175, 178);
+    
+    text-decoration: none;
+}
+.footer-container .footer4 li a{
+    color:rgb(163, 175, 178);
+    
+    text-decoration: none;
+}
+.footer-container .footer5 li a{
+    color:rgb(163, 175, 178);
+    text-decoration: none;
+    
+}
+
